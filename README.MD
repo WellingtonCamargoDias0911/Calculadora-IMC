@@ -56,7 +56,3 @@ Se desejar alterar ou expandir o projeto:
 
 Este projeto é de uso livre. Sinta-se à vontade para modificar e compartilhar.
 
-## Autor
-
-- **Seu Nome**
-
