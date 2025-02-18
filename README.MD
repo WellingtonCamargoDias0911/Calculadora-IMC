@@ -1,58 +1,22 @@
-# Calculadora de IMC
+# BMI Calculator
 
-Este projeto consiste em uma calculadora de IMC (\*\*\*\*\*\*\*) criada com Python e a biblioteca `tkinter` para a interface gráfica.
+This project is a BMI (Body Mass Index) calculator created using Python and the Tkinter library for the graphical interface.
 
-## Funcionalidades
+## Features
 
-- Interface amigável para entrada de dados.
-- Cálculo do IMC baseado no peso e altura fornecidos.
-- Exibição do resultado diretamente na janela do aplicativo.
+- User-friendly interface for data input.  
+- BMI calculation based on the provided weight and height.  
+- Displays the result directly in the application window.  
 
-## Requisitos
+## Requirements
 
-- Python 3.6 ou superior.
+- Python 3.6 or higher.  
 
-## Como usar
+## How to Use
 
-1. Clone este repositório ou copie o código fonte.
-2. Certifique-se de ter o Python instalado em sua máquina.
-3. Execute o script com o comando:
-   ```bash
-   python nome_do_arquivo.py
-   ```
-4. Uma janela será aberta:
-   - Insira seu peso (em kg) no campo correspondente.
-   - Insira sua altura (em metros) no campo correspondente.
-   - Clique no botão **Calcular**.
-5. O resultado do cálculo do IMC será exibido na janela.
+1. Clone this repository or copy the source code.  
+2. Make sure Python is installed on your machine.  
+3. Run the script using the command:  
 
-## Estrutura do Projeto
-
-- **Interface Gráfica:** Utiliza `tkinter` para criar os elementos visuais (Labels, Entry, Button).
-- **Função de Cálculo:** A função `calcula_imc` é responsável por realizar o cálculo matemático e exibir o resultado.
-
-## Fórmula do IMC
-
-A fórmula usada para o cálculo é:
-
-\[ IMC = \frac{Peso \ (kg)}{Altura \ (m)^2} \]
-
-## Exemplo de Uso
-
-- **Peso:** 70 kg
-- **Altura:** 1.75 m
-- **Cálculo:**
-  \[ IMC = \frac{70}{1.75^2} = 22.86 \]
-- **Resultado:** "O seu IMC é 22.86"
-
-## Personalização
-
-Se desejar alterar ou expandir o projeto:
-
-- Adicione categorias de classificação do IMC (e.g., abaixo do peso, peso normal, sobrepeso).
-- Modifique o layout ou estilo da interface.
-
-## Licença
-
-Este projeto é de uso livre. Sinta-se à vontade para modificar e compartilhar.
-
+   ```sh
+   python filename.py
